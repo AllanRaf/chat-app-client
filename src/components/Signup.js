@@ -28,7 +28,7 @@ export default class Signup extends Component {
   render() {
     return (
       <div>
-        <h2>Make a new user account</h2>
+        <h2>Crate a new user account</h2>
         <form onSubmit={this.onSubmit}>
           <input
             name="email"
@@ -46,7 +46,7 @@ export default class Signup extends Component {
             placeholder="password"
           ></input>
 
-          <button type="Submit">Make new account</button>
+          <button type="Submit">Create a new account</button>
         </form>
       </div>
     );

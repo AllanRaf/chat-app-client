@@ -8,7 +8,7 @@ class App extends React.Component {
   
   render (){
     return ( <div>
-      <h1> jeroen's chat app </h1>
+      <h1> Allan's chat app </h1>
     <Chatroom/>
 
     <Signup/>
